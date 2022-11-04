@@ -1,0 +1,28 @@
+.setButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px 0;
+  .error {
+    color: rgb(128, 5, 5);
+  }
+  .setArray {
+    height: 35px;
+  }
+  input {
+    background-color: aliceblue;
+    margin-left: 10px;
+    border: 1px dashed rgb(10, 63, 109);
+    width: 200px;
+    font-stretch: ultra-condensed;
+    font-size: 16px;
+    height: 30px;
+  }
+  label {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .generateBtn{
+    height: 40px;
+  }
+}

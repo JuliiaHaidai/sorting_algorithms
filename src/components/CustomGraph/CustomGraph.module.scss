@@ -1,0 +1,25 @@
+.bar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgb(104, 185, 131);
+  width: 40px;
+  margin: 10px 3px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.select {
+  background-color: rgb(19, 215, 250);
+}
+
+.swap {
+  background-color: rgb(148, 218, 56);
+  transition: transform ease-in 0.3s;
+}

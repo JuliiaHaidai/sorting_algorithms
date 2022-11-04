@@ -1,0 +1,24 @@
+.algorithmPanel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(126, 187, 149);
+  height: 10vh;
+  border-radius: 10px;
+  border: 2px solid rgba(81, 104, 84, 0.9);
+  width: 98%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-size: 20px;
+  span {
+    box-sizing: border-box;
+    padding-top: 1%;
+    cursor: pointer;
+    height: 80%;
+  }
+}
+
+.chosenAlgo {
+  color: rgb(15, 153, 38);
+  font-size: 24px;
+  border-bottom: 2px solid rgb(15, 153, 38);
+}

@@ -1,0 +1,27 @@
+.graphImplementation {
+  display: flex;
+  height: 12vh;
+  margin-left: auto;
+  box-sizing: content-box;
+  padding-right: 40px;
+  align-items: center;
+  div {
+    display: flex;
+    align-items: center;
+  }
+  input {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    &:disabled {
+      background-color: rgb(172, 168, 168);
+      border-radius: 5px;
+    }
+  }
+}
+
+.active {
+  border: 2px solid rgb(6, 92, 66);
+  padding: 2px;
+  border-radius: 5px;
+}
